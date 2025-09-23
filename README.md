@@ -6,6 +6,7 @@
 - **Location:** Poland  
 - **GitHub:** [pavlovspace](https://github.com/pavlovspace)  
 - **Discord:** pavlovspace
+- **Telegram:** @pavlovspace
 
 ## About Me
 I am a Frontend Developer specializing in **React**, **Next.js**, and **TypeScript**.  
