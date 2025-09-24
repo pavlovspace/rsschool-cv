@@ -1,1 +1,3 @@
-https://pavlovspace.github.io/rsschool-cv/cv.md
+https://pavlovspace.github.io/rsschool-cv/cv
+
+https://pavlovspace.github.io/rsschool-cv/
