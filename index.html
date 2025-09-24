@@ -3,18 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>Pavlo Pavlov CV</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>My CV</h1>
+   <div class="profile">
+    <img src="https://www.shutterstock.com/image-vector/vector-icon-young-mans-avatar-600nw-2418817965.jpg" alt="My cartoon avatar" class="avatar">
+    <h1>Pavlo Pavlov</h1>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code Example</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
-    <p>Content will be here in the next task.</p>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Frontend Developer specializing in <strong>React</strong>, <strong>Next.js</strong>, and <strong>TypeScript</strong>. 
+      Worked on a SIM card ordering platform, focusing on UI/UX improvements and optimizing the user interface.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript (ES6+), TypeScript, HTML5, CSS3 (Flex, Grid)</li>
+        <li>React, Next.js, Redux Toolkit, Redux Saga, RTK Query, Zustand, Apollo React</li>
+        <li>React Hook Form, Formik, Yup, Storybook, TailwindCSS, SCSS, styled-components, CSS Modules, ShadCN, Material UI, Bootstrap</li>
+        <li>SSR, Performance Optimization, Code Splitting, Lazy Loading, WCAG Accessibility</li>
+        <li>Jest, Cypress</li>
+        <li>Webpack, Gulp, ESLint, Prettier, Git, Jira, Trello, ClickUp</li>
+      </ul>
+    </section>
+
+    <section id="code">
+      <h2>Code Example</h2>
+      <pre><code>
+function correct(text) {
+  const correctedChars = [];
+  for (let i = 0; i < text.length; i++) {
+    const currentChar = text[i];
+    if (currentChar === "5") {
+      correctedChars.push("S");
+    } else if (currentChar === "0") {
+      correctedChars.push("O");
+    } else if (currentChar === "1") {
+      correctedChars.push("I");
+    } else {
+      correctedChars.push(currentChar);
+    }
+  }
+  return correctedChars.join("");
+}
+      </code></pre>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <p><strong>ITCRAFT - Front End Developer</strong> (02/2024 - 09/2024)</p>
+      <ul>
+        <li>Developed a SIM card order form and user dashboards using ReactJS</li>
+        <li>Implemented SIM card order widgets with referral functionality</li>
+        <li>Optimized UI for responsiveness and UX</li>
+        <li>Ensured WCAG accessibility standards were met</li>
+        <li><strong>Stack:</strong> React 17, TypeScript, Redux Toolkit, i18-next, Jest, Cypress</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>Engineer Degree, Informatics "Horizon" (09/2019 – 02/2023)</p>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>English: B2</li>
+        <li>Polish: C2</li>
+        <li>Ukrainian: Native</li>
+        <li>Russian: Native</li>
+      </ul>
+    </section>
+
+    <section id="contacts">
+      <h2>Contact Information</h2>
+      <ul>
+        <li><strong>Phone:</strong> +48******</li>
+        <li><strong>Email:</strong> xpavlovpaul@gmail.com</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/pavlovspace">pavlovspace</a></li>
+        <li><strong>Discord:</strong> pavlovspace</li>
+        <li><strong>Telegram:</strong> @pavlovspace</li>
+        <li><strong>Location:</strong> Poland</li>
+      </ul>
+    </section>
   </main>
+
   <footer>
-    <p>© 2025</p>
+    <p>
+      <a href="https://github.com/pavlovspace">GitHub</a> | 
+      2025 | 
+      <a href="https://rs.school/js/"><img
+  class="footer__logo"
+  src="https://app.rs.school/static/images/logo-rsschool3.png"
+  alt="rs-school logo"
+  width="80"
+/></a>
+    </p>
   </footer>
 </body>
 </html>

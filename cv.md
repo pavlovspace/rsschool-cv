@@ -1,7 +1,7 @@
 # Pavlo Pavlov
 
 ## Contact Information
-- **Phone:** +48 57 00 50 320  
+- **Phone:** +48****** 
 - **Email:** xpavlovpaul@gmail.com  
 - **Location:** Poland  
 - **GitHub:** [pavlovspace](https://github.com/pavlovspace)  
