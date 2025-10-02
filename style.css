@@ -16,8 +16,30 @@ body {
 }
 
 header {
-    text-align: center;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column; /* по умолчанию сверху вниз */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px; /* расстояние между блоками */
+}
+
+
+
+@media (max-width: 800px) {
+  header nav ul {
+    flex-direction: column; /* вертикально на маленьких экранах */
+    gap: 10px;
+  }
+
+  header .profile .avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
 }
 
 .profile {
